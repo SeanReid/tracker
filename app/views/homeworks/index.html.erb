@@ -22,7 +22,12 @@
         <td><%= homework.assignment %></td>
         <td><%= homework.on_time %></td>
         <td><%= homework.grade %></td>
-        <td><%= image_tag homework.icon, class: "icon" %></td>
+        <td>
+          <%= link_to homework.github_url do %>
+            <%= image_tag homework.icon, class: "icon" %>
+          <% end %>
+        </td>
+
         <td><%= link_to 'Show', homework, class: "btn btn-large btn-success" %></td>
         <td><%= link_to 'Edit', edit_homework_path(homework), class: "btn btn-warning" %></td>
         <td><%= link_to 'Destroy', homework, class: 'btn btn-danger', method: :delete, data: { confirm: "Don't taze me bro!" } %></td>
