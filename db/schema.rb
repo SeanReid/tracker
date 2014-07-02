@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140702001452) do
+ActiveRecord::Schema.define(version: 20140702145704) do
 
   create_table "homeworks", force: true do |t|
     t.integer  "day"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20140702001452) do
     t.string   "icon"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "github_url"
   end
 
 end
