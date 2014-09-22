@@ -1,4 +1,4 @@
-Ruby on Rails application written as a project for The Iron Yard Academy.
+Ruby on Rails application written as a weekend project for The Iron Yard Academy.
 
 Simple Homework Tracking web app using many to many relationships, join tables, and foreign keys. Bootstrap 3 for style 
 and added links to external social sites. Keep track of hw is fun!
